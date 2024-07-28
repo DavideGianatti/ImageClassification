@@ -16,3 +16,6 @@ The project is organized as follows:
 The training, validation and test sets can be downloaded from https://drive.google.com/file/d/1WuRFy2xr7IYie-SdHYgj3XrgfWUH7W1Q/view. 
 Collect them in a directory named **fruits**.
 
+### Report
+The interest reader can delve into the project methodologies and results by reviewing the PDF report: **fruits_classification_report.pdf**.
+
