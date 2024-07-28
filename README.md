@@ -12,3 +12,7 @@ The project is organized as follows:
 - **last_layer.py**: extracts features from the last hidden layer of a CNN and trains classifiers on these features;
 - **low_level_feature.py**: trains a classifier from classifiers.py using low-level features.
 
+### Data Set
+The training, validation and test sets can be downloaded from https://drive.google.com/file/d/1WuRFy2xr7IYie-SdHYgj3XrgfWUH7W1Q/view. 
+Collect them in a directory named **fruits**.
+
