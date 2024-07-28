@@ -21,6 +21,8 @@ def save_feature(path):
         The dataset path (train/validation/test).
     """
     X, Y = extract_lowlevel(path)
+
+    os.makedirs('data', exist_ok=True)
     np.save(f"data/low_X_{path}.dat", X)
     np.save(f"data/low_Y_{path}.dat", Y)
 

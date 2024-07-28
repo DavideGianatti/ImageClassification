@@ -373,6 +373,7 @@ def save_images(path):
     X = np.stack(all_features, axis=0)
     Y = np.array(all_labels)
 
+    os.makedirs('data', exist_ok=True)
     np.save(f"data/image_X_{path}.dat", X)
     np.save(f"data/image_Y_{path}.dat", Y)
 
