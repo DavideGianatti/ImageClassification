@@ -163,4 +163,5 @@ if __name__ == "__main__":
     history = cnn.fit(X_train, Y_train, epochs=250, validation_data=(X_validation, Y_validation))
 
     # Save the trained model
+    os.makedirs('networks', exist_ok=True)
     cnn.save("networks/" + cnn_name)
